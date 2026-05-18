@@ -1,0 +1,91 @@
+{
+  "total_cases": 3613,
+  "sc_cases": 1474,
+  "hc_cases": 2139,
+  "cases_with_full_text": 1049,
+  "sc_quash_success_rate": 57.6,
+  "hc_quash_success_rate": 39.7,
+  "quash_rate_differential": 17.9,
+  "signal_flags": {
+    "mediation_mentioned": 1,
+    "omnibus_vague_language": 2,
+    "relatives_accused": 38,
+    "judicial_criticism_misuse": 38,
+    "arnesh_kumar_cited": 0,
+    "rajesh_sharma_cited": 1
+  },
+  "graph": {
+    "nodes": 1520,
+    "edges": 13364,
+    "node_types": {
+      "Landmark": 3,
+      "Case": 1465,
+      "Court": 2,
+      "Outcome": 16,
+      "Year": 26,
+      "Statute": 8
+    },
+    "edge_types": {
+      "HEARD_BY": 3603,
+      "RESULTS_IN": 3603,
+      "DECIDED_IN": 3603,
+      "INVOKES": 2555
+    }
+  },
+  "top_statutes": [
+    [
+      "CrPC 482",
+      2179
+    ],
+    [
+      "IPC 498A",
+      192
+    ],
+    [
+      "Dowry Prohibition Act",
+      60
+    ],
+    [
+      "Hindu Marriage Act",
+      47
+    ],
+    [
+      "IPC 304B",
+      44
+    ],
+    [
+      "DV Act",
+      23
+    ],
+    [
+      "CrPC 125",
+      9
+    ],
+    [
+      "Special Marriage Act",
+      1
+    ]
+  ],
+  "outcomes": {
+    "dismissed": 1315,
+    "quashed": 1310,
+    "allowed": 246,
+    "settled": 120,
+    "partly_allowed": 109,
+    "disposed": 248,
+    "unknown": 24,
+    "partly_quashed": 30,
+    "leave_granted": 7,
+    "referred": 6,
+    "reference_answered": 5,
+    "adjourned": 4,
+    "directions": 9,
+    "dismissed_nop": 160,
+    "remanded": 1,
+    "abated": 9
+  },
+  "year_range": [
+    "2000",
+    "nan"
+  ]
+}

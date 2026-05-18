@@ -1,0 +1,67 @@
+IMLJD KNOWLEDGE GRAPH STATISTICS
+==================================================
+Total cases:          3613
+SC cases:             1474
+HC cases:             2139
+Cases with full text: 1049
+
+KEY FINDINGS
+----------------------------------------
+SC quash success rate:  57.6%
+HC quash success rate:  39.7%
+Differential:           17.9 percentage points
+
+GRAPH
+----------------------------------------
+Nodes: 1520
+Edges: 13364
+
+Node types:
+  Case                : 1465
+  Year                : 26
+  Outcome             : 16
+  Statute             : 8
+  Landmark            : 3
+  Court               : 2
+
+Edge types:
+  HEARD_BY                 : 3603
+  RESULTS_IN               : 3603
+  DECIDED_IN               : 3603
+  INVOKES                  : 2555
+
+Top statutes:
+  CrPC 482                           : 2179
+  IPC 498A                           : 192
+  Dowry Prohibition Act              : 60
+  Hindu Marriage Act                 : 47
+  IPC 304B                           : 44
+  DV Act                             : 23
+  CrPC 125                           : 9
+  Special Marriage Act               : 1
+
+Outcomes:
+  dismissed                : 1315
+  quashed                  : 1310
+  disposed                 : 248
+  allowed                  : 246
+  dismissed_nop            : 160
+  settled                  : 120
+  partly_allowed           : 109
+  partly_quashed           : 30
+  unknown                  : 24
+  directions               : 9
+  abated                   : 9
+  leave_granted            : 7
+  referred                 : 6
+  reference_answered       : 5
+  adjourned                : 4
+  remanded                 : 1
+
+Signal flags:
+  mediation_mentioned                       : 1
+  omnibus_vague_language                    : 2
+  relatives_accused                         : 38
+  judicial_criticism_misuse                 : 38
+  arnesh_kumar_cited                        : 0
+  rajesh_sharma_cited                       : 1
