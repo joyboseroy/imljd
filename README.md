@@ -1,11 +1,11 @@
 # IMLJD — Indian Matrimonial Litigation Judgment Dataset
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![arXiv](https://img.shields.io/badge/arXiv-preprint-red)](https://arxiv.org/abs/2605.14665)
+[![HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/joyboseroy/imljd)
 
 A computational dataset of Indian matrimonial litigation judgments for legal NLP, knowledge graph construction, and procedural fairness research.
 
-**Dataset:** 3,610 cases | **Coverage:** Supreme Court 2000–2024, Karnataka HC 2018–2024 | **Focus:** IPC 498A, DV Act, CrPC 482 quashing petitions
+**Dataset:** 3,613 cases | **Coverage:** Supreme Court 2000–2024, Karnataka HC 2018–2024 | **Focus:** IPC 498A, DV Act, CrPC 482 quashing petitions
 
 ---
 
