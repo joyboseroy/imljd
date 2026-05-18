@@ -108,18 +108,18 @@ cd imljd
 pip install -r requirements.txt
 
 # SC metadata (fast)
-python3 scripts/03_download_fixed.py --sc --years $(seq 2000 2024)
-python3 scripts/enrich_sc.py
-python3 scripts/fix_outcomes.py
+python3 scripts/03downloadfixed.py --sc --years $(seq 2000 2024)
+python3 scripts/enrichsc.py
+python3 scripts/fixoutcomes.py
 
 # SC full text (slow — downloads tar archives)
-python3 scripts/fetch_sc_lean.py --years 2015 2017 2019 2021 2023
+python3 scripts/fetchsclean.py --years 2015 2017 2019 2021 2023
 
 # Karnataka HC 482 petitions
-python3 scripts/hc_extract_v3.py --courts 29_3 --years 2018 2019 2020 2021 2022 2023 2024
+python3 scripts/hcextractv3.py --courts 29_3 --years 2018 2019 2020 2021 2022 2023 2024
 
 # Build knowledge graph
-python3 scripts/build_kg.py
+python3 scripts/buildkg.py
 ```
 
 ---
@@ -146,7 +146,7 @@ If you use this dataset, please cite:
 ```bibtex
 @dataset{boseroy2026imljd,
   title     = {IMLJD: Indian Matrimonial Litigation Judgment Dataset},
-  author    = {Bose Roy, Joy},
+  author    = {Bose, Joy},
   year      = {2026},
   url       = {https://github.com/joyboseroy/imljd},
   note      = {3,610 cases, Supreme Court 2000-2024 and Karnataka HC 2018-2024}
@@ -157,7 +157,7 @@ This work extends the legal reasoning framework from:
 ```bibtex
 @article{boseroy2026falkor,
   title  = {FalkorDB-IRAC: Graph-Grounded Legal Reasoning},
-  author = {Bose Roy, Joy},
+  author = {Bose, Joy},
   year   = {2026},
   url    = {https://arxiv.org/abs/2605.14665}
 }
