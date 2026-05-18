@@ -1,0 +1,11 @@
+data/tars/
+data/extracted/
+data/raw/
+data/pdfs/
+data/parquet/hc_3_22.parquet
+data/parquet/hc_7_26.parquet
+data/parquet/*_hf.csv
+__pycache__/
+*.pyc
+scraper.log
+*.tar
